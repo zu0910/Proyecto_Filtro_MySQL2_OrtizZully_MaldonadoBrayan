@@ -54,7 +54,7 @@ A continuación se realizará una descripción detallada de cada tabla junto con
 |**Login**| Se registran todos los usuarios que van a tener acceso a la plataforma, junto con su usuario y contraseña, se les agrega un id para poder relacionarlos con las tablas de clientes y empleados|
 |**Cargos**| Se registran todos los cargos que se manejan dentro de la finca, se les agrega un id para posteriormente asignarlos a los diferentes empleados|
 |**Empleados**| Personal que se maneja dentro de la finca, se encuentran con un cargo asignado, y unas tareas que deben realizar con el pasar del tiempo, se les agrega un id, para relacionarlos con las tablas de ventas y así darle un manejo más eficiente a la bbdd|
-|**Maquinaria**| Se registran las maqi¿uinas que hay dentro de la empresa, se relaciona con el estado en el que se encuentra, en qué compra fue adquirido, la fecha del ultimo mantenimiento que se les realizó y demás valores relevantes|
+|**Maquinaria**| Se registran las maquinas que hay dentro de la empresa, se relaciona con el estado en el que se encuentra, en qué compra fue adquirido, la fecha del ultimo mantenimiento que se les realizó y demás valores relevantes|
 |**cultivos**| Se registran los cultivos que se tienen dentro de la finca, mostrando datos como lo son su tamaño y el tipo de fruta que se produce en cada cultivo, también se tiene la cantidad que se espera cosechar en cada cultivo y la maquinaria que se necesita para mantenerlo|
 |**Cosecha**| Se registran todas las cosechas que se han realizado a lo largo del tiempo, se almacenan datos como lo son, el cultivo al que se realizó la cosecha, la cantidad que se cosechó y el tipo de fruta que se recogió|
 |**Inventario**| Aquí se registran todos los valores de las frutas que se están guardando en la finca, se muestra el tipo de fruta, la cantidad que hay en el inventario y su ubicación|
@@ -63,7 +63,7 @@ A continuación se realizará una descripción detallada de cada tabla junto con
 |**Ventas**| Se registran todas las ventas que se han realizado a lo largo del tiempo, se relaciona con el cliente que realiza la compra, el empleado que apoya la compra y demás datos relevantes, como lo son la cantidad, precio unitario y el total de la compra|
 |**Tarea**| En esta tabla se encuentran todas las tareas que han sido asignadas a los trabajadores de la finca junto con su descripción, tienen un id para poder relacionarlas con los empleados que tienen que realizar cada una|
 |**Ingresos_gastos**| Esta tabla es utilizada para registrar todos los ingresos y gastos que han habido dentro de la empresa en diferentes lapsos de tiempo, sirve para tener un mejor manejo de las finanzas y tener en cuenta estos datos para futuras operaciones que se vayan a realizar
-|
+
 ## Ejemplos de consultas
 
 Dentro del proyecto se pueden encontrar 100 consultas, pero por practicidad en este documento solo vamos a resaltar 3
@@ -299,7 +299,3 @@ Ambos estudiantes de **Campuslands Tibú (SandBox)**, este proyecto fue creado p
 
 ## Documentación
 La documentación general de este proyecto de bbdd se encuentra en el siguiente link : [**Notion**](https://forest-thorn-c36.notion.site/Finca-de-producci-n-frutal-f1cd1c4d00aa4e52a2ba5b7f2c64ffd3?pvs=4)
-
-
-
-
