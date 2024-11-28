@@ -15,7 +15,7 @@ Diseñada para garantizar integridad referencial y optimizar procesos operativos
 
 ## Fases de desarrollo 
 1. **Modelo Conceptual**: Representa las entidades con sus atributos y sus relaciones.
-2. **Modelo Logico**: Muesta una estructura optimizada del modelo conceptual.
+2. **Modelo Logico**: Muestra una estructura optimizada del modelo conceptual.
 3. **Normalización**: Aplicación de las formas normales (1FN, 2FN, 3FN) para garantizar la integridad y eficiencia de la base de datos.
 4. **Modelo Físico**: Implementación en Sql con la inserción de datos y consultas optimizadas.
 ## Requisitos del Sistema
